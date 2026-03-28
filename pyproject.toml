@@ -1,0 +1,17 @@
+[project]
+name = "kindle-letter"
+version = "0.1.0"
+description = "Weekly Kindle newsletter with curated tech topics"
+requires-python = ">=3.12"
+dependencies = [
+    "ebooklib>=0.18",
+    "jinja2>=3.1",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

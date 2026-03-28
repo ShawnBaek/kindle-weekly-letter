@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>{{ topic }}</title></head>
+<body>
+  <h1>{{ topic }}</h1>
+  {% if intro %}
+  <p class="section-intro">{{ intro }}</p>
+  {% endif %}
+  {% for article in articles %}
+  <h2>{{ article.title }}</h2>
+  <p class="source-attribution">Source: {{ article.source }}{% if article.url %} — <a href="{{ article.url }}">Read original</a>{% endif %}</p>
+  {{ article.content_html }}
+  {% if not loop.last %}
+  <hr class="article-separator"/>
+  {% endif %}
+  {% endfor %}
+</body>
+</html>

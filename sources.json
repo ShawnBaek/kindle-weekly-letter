@@ -1,0 +1,70 @@
+{
+  "english": {
+    "topic": "English for Software Engineers",
+    "sources": [
+      {"name": "WWDC Transcripts", "url": "developer.apple.com", "votes": 5, "status": "active"},
+      {"name": "English with Terry", "url": "youtube.com/c/EnglishwithTerry", "votes": 4, "status": "active"},
+      {"name": "Google Hiring Manager Tips", "url": "youtube.com", "votes": 4, "status": "active"},
+      {"name": "Udemy Courses", "url": "udemy.com", "votes": 3, "status": "active"}
+    ]
+  },
+  "ai_news": {
+    "topic": "AI Engineering News",
+    "sources": [
+      {"name": "Anthropic Blog", "url": "anthropic.com/blog", "votes": 5, "status": "active"},
+      {"name": "OpenAI Blog", "url": "openai.com/blog", "votes": 5, "status": "active"},
+      {"name": "Google DeepMind Blog", "url": "deepmind.google", "votes": 4, "status": "active"},
+      {"name": "Hacker News (AI)", "url": "news.ycombinator.com", "votes": 4, "status": "active"},
+      {"name": "The Batch (Andrew Ng)", "url": "deeplearning.ai/the-batch", "votes": 3, "status": "active"},
+      {"name": "arXiv (notable papers)", "url": "arxiv.org", "votes": 3, "status": "active"}
+    ]
+  },
+  "ios": {
+    "topic": "iOS Engineering",
+    "sources": [
+      {"name": "Hacking with Swift", "url": "hackingwithswift.com", "votes": 5, "status": "active"},
+      {"name": "Swift Blog", "url": "swift.org/blog", "votes": 5, "status": "active"},
+      {"name": "iOS Dev Weekly", "url": "iosdevweekly.com", "votes": 4, "status": "active"},
+      {"name": "WWDC Sessions", "url": "developer.apple.com", "votes": 4, "status": "active"},
+      {"name": "Swift by Sundell", "url": "swiftbysundell.com", "votes": 4, "status": "active"},
+      {"name": "Antoine van der Lee", "url": "avanderlee.com", "votes": 3, "status": "active"},
+      {"name": "Donny Wals", "url": "donnywals.com", "votes": 3, "status": "active"}
+    ]
+  },
+  "business": {
+    "topic": "Travel App Business",
+    "sources": [
+      {"name": "Phocuswire", "url": "phocuswire.com", "votes": 5, "status": "active"},
+      {"name": "Skift", "url": "skift.com", "votes": 5, "status": "active"},
+      {"name": "TechCrunch Travel", "url": "techcrunch.com", "votes": 4, "status": "active"},
+      {"name": "data.ai (App Annie)", "url": "data.ai", "votes": 4, "status": "active"},
+      {"name": "Product Hunt", "url": "producthunt.com", "votes": 3, "status": "active"}
+    ]
+  },
+  "news": {
+    "topic": "Singapore & Korea News",
+    "sources": [
+      {"name": "The Straits Times", "url": "straitstimes.com", "votes": 5, "status": "active"},
+      {"name": "CNA", "url": "channelnewsasia.com", "votes": 5, "status": "active"},
+      {"name": "The Korea Herald", "url": "koreaherald.com", "votes": 5, "status": "active"},
+      {"name": "Korea JoongAng Daily", "url": "koreajoongangdaily.joins.com", "votes": 4, "status": "active"},
+      {"name": "Yonhap News English", "url": "en.yna.co.kr", "votes": 4, "status": "active"},
+      {"name": "TODAY Singapore", "url": "todayonline.com", "votes": 4, "status": "active"},
+      {"name": "Mothership.sg", "url": "mothership.sg", "votes": 3, "status": "active"},
+      {"name": "Nikkei Asia", "url": "asia.nikkei.com", "votes": 3, "status": "active"}
+    ]
+  },
+  "systems_lang": {
+    "topic": "C++ / C / Rust / Python",
+    "sources": [
+      {"name": "This Week in Rust", "url": "this-week-in-rust.org", "votes": 5, "status": "active"},
+      {"name": "Rust Blog", "url": "blog.rust-lang.org", "votes": 5, "status": "active"},
+      {"name": "Real Python", "url": "realpython.com", "votes": 5, "status": "active"},
+      {"name": "isocpp.org", "url": "isocpp.org", "votes": 4, "status": "active"},
+      {"name": "C++ Weekly (Jason Turner)", "url": "youtube.com/@caborern", "votes": 4, "status": "active"},
+      {"name": "LWN.net", "url": "lwn.net", "votes": 4, "status": "active"},
+      {"name": "Python Weekly", "url": "pythonweekly.com", "votes": 3, "status": "active"},
+      {"name": "LLVM Blog", "url": "blog.llvm.org", "votes": 3, "status": "active"}
+    ]
+  }
+}

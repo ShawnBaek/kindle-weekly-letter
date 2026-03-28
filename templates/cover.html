@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>{{ title }}</title></head>
+<body>
+  <div class="cover-page">
+    <div class="cover-header">
+      <div class="cover-label">WEEKLY DIGEST</div>
+      <div class="cover-rule"></div>
+    </div>
+    <div class="cover-title">{{ title }}</div>
+    <div class="cover-date">{{ date }}</div>
+    <div class="cover-rule-thin"></div>
+    <div class="cover-toc-label">THIS WEEK</div>
+    <div class="cover-topics">
+      {% for topic in topics %}
+      <div class="cover-topic-item">
+        <span class="cover-topic-num">{{ loop.index }}</span>
+        <span class="cover-topic-name">{{ topic }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="cover-footer">
+      <div class="cover-rule"></div>
+      <div class="cover-tagline">Curated for Sungwook</div>
+    </div>
+  </div>
+</body>
+</html>

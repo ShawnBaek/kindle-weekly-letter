@@ -1,0 +1,179 @@
+/* Kindle-optimized CSS — clean, readable, e-ink friendly */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    margin: 1em;
+    color: #1a1a1a;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+p {
+    margin-bottom: 0.8em;
+    text-align: justify;
+}
+
+blockquote {
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 3px solid #999;
+    color: #444;
+    font-style: italic;
+}
+
+.article-separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+}
+
+.source-attribution {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.section-intro {
+    font-style: italic;
+    margin-bottom: 1.5em;
+    color: #333;
+}
+
+/* Cover page */
+.cover-page {
+    text-align: center;
+    padding-top: 4em;
+}
+
+.cover-header {
+    margin-bottom: 1.5em;
+}
+
+.cover-label {
+    font-size: 0.85em;
+    letter-spacing: 0.4em;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+}
+
+.cover-rule {
+    border: none;
+    height: 3px;
+    background-color: #333;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cover-rule-thin {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 40%;
+    margin: 1.5em auto;
+}
+
+.cover-title {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.cover-date {
+    font-size: 1.1em;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.cover-toc-label {
+    font-size: 0.75em;
+    letter-spacing: 0.3em;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.cover-topics {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.cover-topic-item {
+    margin-bottom: 0.8em;
+    font-size: 1em;
+}
+
+.cover-topic-num {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border: 1px solid #999;
+    border-radius: 50%;
+    font-size: 0.8em;
+    color: #666;
+    margin-right: 0.5em;
+    text-align: center;
+}
+
+.cover-topic-name {
+    color: #333;
+    font-size: 1em;
+}
+
+.cover-footer {
+    margin-top: 3em;
+}
+
+.cover-tagline {
+    font-size: 0.85em;
+    color: #999;
+    font-style: italic;
+    margin-top: 0.8em;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin-bottom: 0.8em;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
+    background-color: #f0f0f0;
+    padding: 0.1em 0.3em;
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "owner": {
+    "name": "Sungwook Baek"
+  },
+  "plugins": [
+    {
+      "name": "kindle-letter",
+      "description": "Weekly Kindle newsletter with AI research agents. Collects articles daily, compiles EPUB, delivers to Kindle. Fully customizable topics and sources.",
+      "author": {
+        "name": "Sungwook Baek"
+      },
+      "source": "github",
+      "owner": "ShawnBaek",
+      "repo": "kindle-letter",
+      "ref": "main"
+    }
+  ]
+}
