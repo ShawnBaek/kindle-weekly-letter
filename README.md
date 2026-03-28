@@ -12,7 +12,7 @@ Sunday:  Articles compiled into EPUB → delivered to your Kindle
 1. **Daily Collection** — Research agents use web search to find the best articles published each day. Articles accumulate in a local store, deduped by URL. Each topic pauses at 10 articles.
 2. **Sunday Compilation** — All collected articles are proposed for your approval. After you approve, full article content is fetched, curated into 400-800 word readable pieces, formatted into an EPUB book, and emailed to your Kindle.
 
-## Default Topics
+## Built-in Topics
 
 | # | Topic | Audience |
 |---|-------|----------|
