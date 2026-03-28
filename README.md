@@ -2,15 +2,16 @@
 
 Automated weekly Kindle newsletter powered by Claude Code. AI research agents collect articles daily across customizable topics, compile them into a readable EPUB book, and deliver to your Kindle every Sunday.
 
-<p align="center">
-  <img src="assets/kindle_screenshot_1.png" width="380" alt="Weekly Tech Digest cover page on Kindle" />
-  &nbsp;&nbsp;
-  <img src="assets/kindle_screenshot_2.png" width="380" alt="Full article reading experience on Kindle" />
-</p>
-
-<p align="center">
-  <em>Cover page with all topics listed &nbsp;|&nbsp; Full articles readable directly on Kindle — no links needed</em>
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/kindle_screenshot_1.png" height="300" alt="Weekly Tech Digest cover page on Kindle" /></td>
+    <td align="center"><img src="assets/kindle_screenshot_2.png" height="300" alt="Full article reading experience on Kindle" /></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Cover page with all topics</em></td>
+    <td align="center"><em>Full articles on Kindle — no links needed</em></td>
+  </tr>
+</table>
 
 ## How It Works
 
