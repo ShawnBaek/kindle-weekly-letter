@@ -52,7 +52,7 @@ TOPICS = [
     },
     {
         "id": "systems_lang",
-        "name": "C++ / C / Rust / Python",
+        "name": "Swift / C++ / C / Rust / Python & Algorithms",
         "prompt_file": "agent_systems_lang.md",
     },
 ]

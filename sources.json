@@ -16,7 +16,12 @@
       {"name": "Google DeepMind Blog", "url": "deepmind.google", "votes": 4, "status": "active"},
       {"name": "Hacker News (AI)", "url": "news.ycombinator.com", "votes": 4, "status": "active"},
       {"name": "The Batch (Andrew Ng)", "url": "deeplearning.ai/the-batch", "votes": 3, "status": "active"},
-      {"name": "arXiv (notable papers)", "url": "arxiv.org", "votes": 3, "status": "active"}
+      {"name": "arXiv (notable papers)", "url": "arxiv.org", "votes": 3, "status": "active"},
+      {"name": "Anthropic Developer Blog", "url": "docs.anthropic.com/en/blog", "votes": 5, "status": "active"},
+      {"name": "Google AI Blog", "url": "blog.google/technology/ai", "votes": 5, "status": "active"},
+      {"name": "OpenAI Developer Blog", "url": "platform.openai.com/blog", "votes": 5, "status": "active"},
+      {"name": "Google Developers Blog", "url": "developers.googleblog.com", "votes": 4, "status": "active"},
+      {"name": "Meta AI Blog", "url": "ai.meta.com/blog", "votes": 4, "status": "active"}
     ]
   },
   "ios": {
@@ -55,8 +60,10 @@
     ]
   },
   "systems_lang": {
-    "topic": "C++ / C / Rust / Python",
+    "topic": "Swift / C++ / C / Rust / Python & Algorithms",
     "sources": [
+      {"name": "Swift Blog", "url": "swift.org/blog", "votes": 5, "status": "active"},
+      {"name": "Swift Evolution Proposals", "url": "github.com/swiftlang/swift-evolution", "votes": 4, "status": "active"},
       {"name": "This Week in Rust", "url": "this-week-in-rust.org", "votes": 5, "status": "active"},
       {"name": "Rust Blog", "url": "blog.rust-lang.org", "votes": 5, "status": "active"},
       {"name": "Real Python", "url": "realpython.com", "votes": 5, "status": "active"},
@@ -64,7 +71,10 @@
       {"name": "C++ Weekly (Jason Turner)", "url": "youtube.com/@caborern", "votes": 4, "status": "active"},
       {"name": "LWN.net", "url": "lwn.net", "votes": 4, "status": "active"},
       {"name": "Python Weekly", "url": "pythonweekly.com", "votes": 3, "status": "active"},
-      {"name": "LLVM Blog", "url": "blog.llvm.org", "votes": 3, "status": "active"}
+      {"name": "LLVM Blog", "url": "blog.llvm.org", "votes": 3, "status": "active"},
+      {"name": "NeetCode", "url": "neetcode.io", "votes": 5, "status": "active"},
+      {"name": "LeetCode Discuss", "url": "leetcode.com/discuss", "votes": 4, "status": "active"},
+      {"name": "Algorithm Visualizer", "url": "algorithm-visualizer.org", "votes": 3, "status": "active"}
     ]
   }
 }
